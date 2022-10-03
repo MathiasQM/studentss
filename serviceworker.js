@@ -2,7 +2,7 @@ const cacheName = 'cache-members';
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(cacheName).then(function(cache) {
-      return cache.addAll(['/', 'index.html', 'manifest.json', 'members.json', 'serviceworker.js', 'morten.png', 'mystyle.css', 'nina.png', 'olivia.png']);
+      return cache.addAll(['/repo/', '/repo/studentss/index.html', '/repo/studentss/manifest.json', '/repo/studentss/members.json', '/repo/studentss/serviceworker.js', '/repo/studentss/morten.png', '/repo/studentss/mystyle.css', '/repo/studentss/nina.png', '/repo/studentss/olivia.png']);
     })
   );
 });
