@@ -1,8 +1,10 @@
 {
-  "name": "Cats and Dogs App",
-  "short_name": "Animal App",
-  "description": "This app loves cats and dogs.",
+  "name": "MembersApp",
+  "short_name": "MA",
+  "description": "List of members",
   "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#d676ff",
   "icons": [
     {
       "src": "icon-192.png",
